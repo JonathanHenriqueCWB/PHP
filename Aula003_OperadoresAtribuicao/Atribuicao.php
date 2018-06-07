@@ -14,7 +14,7 @@
 			$preco = $_GET["preco"];
 			echo "Preço informado é R$ :" . number_format($preco, 2);
 			//Clacula valor inicia mais 10%, a mesma regra se aplica para subtração, multiplicação...
-			$preco += ($preco*10/100); // $peco = $preco + ($preco * 10/100)
+			$preco += ($preco*10/100); // $peco = $preco + ($preco * 10/100) 
 			echo "<br>Valor ajustado em 10%: " . number_format($preco, 2);
 		?>
 
