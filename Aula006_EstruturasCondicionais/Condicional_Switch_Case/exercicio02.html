@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head lang="pt-br">
+	<title>Swuitch Case</title>
+	<meta charset="utf-8">
+	
+	<style type="text/css">
+		
+		html, body{
+			padding: 0px;
+			margin: 0px;
+		}
+		body{
+			background-color: #ddd;
+		}
+	            article, aside, section, header, footer, nav {
+            display:block;
+        }
+        /*#######################################################*/
+
+        main{
+        	width: 960px;
+        	height: 600px;
+        	box-shadow: 0 0 10px #333;
+        	margin: 10px auto;
+        	background-color: #FFF;
+        }
+
+        section{
+        	padding: 10px;
+        	text-align: center;
+        }
+
+        label{
+        	color: red;       	
+        }
+
+        form{
+        	margin-top: 100px;
+        	padding: 80px;
+        }
+
+        .botao{
+
+			background-color: blue;
+			padding: 10px 40px;
+			border-radius: 10px;
+			color: white;
+			text-decoration: none;
+		
+        }
+
+        .botao:hover{
+        	color: red;
+        }
+
+	</style>
+
+</head>
+<body>
+	<main>
+		<section>
+			<form method="get" action="exercicio02.php">			
+				
+				<label>Escolha um dia da semana</label>	
+				<input type="number" name="ds" min="1" max="7" required="true"><br>
+
+				<br><input type="submit" name="Enviar" class="botao">	
+		
+			</form>
+		</section>
+	</main>
+</body>
+</html>
